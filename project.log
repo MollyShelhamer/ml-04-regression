@@ -82,3 +82,45 @@
 2026-07-25 21:21:43 | INFO | M04 | Feature:  flipper_length_mm  ->  Target: body_mass_g  (regression)
 2026-07-25 21:21:43 | INFO | M04 | Line:     body_mass_g = 48.8297 * flipper_length_mm + -5614.07
 2026-07-25 21:21:43 | INFO | M04 | ========================
+2026-07-25 21:31:23 | INFO | M04 | === RUN START ===
+2026-07-25 21:31:23 | INFO | M04 | project=M04
+2026-07-25 21:31:23 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-25 21:31:23 | INFO | M04 | python=3.14.3
+2026-07-25 21:31:23 | INFO | M04 | os=Windows 10
+2026-07-25 21:31:23 | INFO | M04 | shell=powershell
+2026-07-25 21:31:23 | INFO | M04 | cwd=notebooks
+2026-07-25 21:31:23 | INFO | M04 | github_actions=False
+2026-07-25 21:31:23 | INFO | M04 | Confirming installation:
+2026-07-25 21:31:23 | INFO | M04 |   python:       3.14.3
+2026-07-25 21:31:23 | INFO | M04 |   pandas:       3.0.3
+2026-07-25 21:31:23 | INFO | M04 |   numpy:        2.5.1
+2026-07-25 21:31:23 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-25 21:31:23 | INFO | M04 |   seaborn:      0.13.2
+2026-07-25 21:31:23 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-25 21:31:29 | INFO | M04 | Loading dataset: tips
+2026-07-25 21:31:30 | INFO | M04 | Loaded: 244 rows (instances), 7 columns
+2026-07-25 21:31:30 | INFO | M04 | Original rows: 244  Model rows: 244
+2026-07-25 21:31:33 | INFO | M04 | Train instances: 195
+2026-07-25 21:31:33 | INFO | M04 | Test instances: 49
+2026-07-25 21:31:35 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-25 21:31:35 | INFO | M04 | Fitted line: tip = 0.106964 * total_bill + 0.925236
+2026-07-25 21:31:38 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-25 21:31:38 | INFO | M04 |   R-squared: 0.5449
+2026-07-25 21:31:38 | INFO | M04 |   RMSE:      0.754198  (in units of Tip ($))
+2026-07-25 21:31:41 | DEBUG | M04 |   degree= 1  train RMSE=1.07524  test RMSE=0.754198
+2026-07-25 21:31:41 | DEBUG | M04 |   degree= 2  train RMSE=1.0745  test RMSE=0.766463
+2026-07-25 21:31:41 | DEBUG | M04 |   degree= 3  train RMSE=1.05365  test RMSE=0.783371
+2026-07-25 21:31:41 | DEBUG | M04 |   degree= 4  train RMSE=1.00672  test RMSE=0.877366
+2026-07-25 21:31:41 | DEBUG | M04 |   degree= 5  train RMSE=1.00154  test RMSE=0.814838
+2026-07-25 21:31:41 | DEBUG | M04 |   degree= 6  train RMSE=0.995108  test RMSE=0.918147
+2026-07-25 21:31:41 | DEBUG | M04 |   degree= 7  train RMSE=0.99405  test RMSE=0.817068
+2026-07-25 21:31:41 | DEBUG | M04 |   degree= 8  train RMSE=0.976155  test RMSE=1.53844
+2026-07-25 21:31:41 | DEBUG | M04 |   degree= 9  train RMSE=0.969375  test RMSE=0.920687
+2026-07-25 21:31:41 | DEBUG | M04 |   degree=10  train RMSE=0.962366  test RMSE=2.27608
+2026-07-25 21:31:43 | INFO | M04 | ========================
+2026-07-25 21:31:43 | INFO | M04 | SUMMARY
+2026-07-25 21:31:43 | INFO | M04 | ========================
+2026-07-25 21:31:43 | INFO | M04 | Dataset:  tips
+2026-07-25 21:31:43 | INFO | M04 | Feature:  total_bill  ->  Target: tip  (regression)
+2026-07-25 21:31:43 | INFO | M04 | Line:     tip = 0.106964 * total_bill + 0.925236
+2026-07-25 21:31:43 | INFO | M04 | ========================
