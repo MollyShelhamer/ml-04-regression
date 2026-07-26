@@ -29,7 +29,7 @@ See [docs/your-files.md] for more.
 
 Links:
 
-- [ml_04_case.ipynb](notebooks/ml_04_case.ipynb)
+- [ml_04_regression.ipynb](notebooks/ml_04_regression.ipynb)
 
 ## Working Files
 
