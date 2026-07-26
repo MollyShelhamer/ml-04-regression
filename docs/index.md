@@ -21,85 +21,44 @@ to get the example projects running on your machine.
 
 ## Phase 4. Technical Modification
 
-Describe your small technical modification to the example project.
-
-Include:
-
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
-
-Compared with the example project,
-explain what is different and why the change matters.
-
-Was it easy, or surprisingly challenging and why do you think so?
+- Adjusted the y-axis label formatting to match the other labels.
+- Switched the Seaborn example from penguins to tips.
+- Kept the notebook structure mostly the same and updated only the data and column references.
+- Verified the change by running the notebook and confirming the regression outputs updated.
 
 ## Phase 5. Custom Project
 
-Describe your custom project and how you made your modeling decisions.
-
-Be specific about what changed from the example project.
+- Used a simple supervised regression example based on the Seaborn tips dataset.
+- Kept the same notebook workflow but changed the dataset, feature, and target.
 
 ### Basis and Data
 
-Describe the dataset, input, or example you started with.
-
-Include:
-
-- The original example dataset or input
-- The data source
-- Why you chose it, kept it, or changed it
-- Any important limitations or assumptions
+- Started with the Seaborn penguins example.
+- Changed to the Seaborn tips dataset for a simpler, different regression example.
 
 ### Modeling Approach
 
-Describe the problem type and modeling approach for this project.
-
-Include:
-
-- Is this supervised or unsupervised and how do you know
-- Is this classification, regression, clustering, recommendation, forecasting, or another type of ML task
-- What kind of target works well for this approach
-- Why your selected model or method is appropriate
+- Used a linear regression model for a numeric target.
+- Chose this approach because it fits the notebook structure and shows the basic regression workflow clearly.
 
 ### Target
 
-Describe the example target variable.
-
-Then describe your chosen target variable.
-
-Explain how your target choice changes the modeling approach, interpretation, or evaluation.
+- Changed the target from body mass to tip.
+- This kept the task numeric and made the model interpretation straightforward.
 
 ### Features
 
-Describe the example features.
-
-Then describe the features you used to predict your target.
-
-Explain what you changed, added, removed, or kept and why.
+- Changed the feature from flipper length to total bill.
+- Kept the overall structure the same and only updated the relevant labels and references.
 
 ### Evaluation and Results
 
-Describe how you evaluated your model.
+- Evaluated the model with R-squared, RMSE, and a residual plot.
+- The results were reasonable and showed the workflow working on the new dataset.
 
-Include:
-
-- The metric or evidence you used
-- The main result
-- Whether the result was useful, interesting, surprising, or disappointing
-- Any weakness, limitation, or next improvement
+![alt text](image.png)
 
 ### Summary
 
-Summarize your custom project.
-
-Include:
-
-- How you implemented your custom model
-- What results you got
-- What you learned
-- How well you exercised the skills covered in this project
-- What kinds of real problems you could apply these skills to in the future
-
-Display at least one image or screenshot showing your work.
+- Implemented the same regression process with a new Seaborn dataset.
+- Learned how to make a small project change while keeping the rest of the notebook intact.
